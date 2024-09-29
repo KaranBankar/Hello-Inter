@@ -64,6 +64,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(LoginActivity.this, SignUpActivity.class);
                 startActivity(i);
+                finish();
             }
         });
 
@@ -119,6 +120,7 @@ public class LoginActivity extends AppCompatActivity {
                         saveData(LoginActivity.this,true);
                         Intent i = new Intent(LoginActivity.this, MainActivity.class);
                         startActivity(i);
+                        finish();
                     } else {
                         loginpass.setError("Invalid Details");
                         loginpass.requestFocus();
