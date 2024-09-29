@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "563270433007",
+    "project_id": "hello-intern",
+    "storage_bucket": "hello-intern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563270433007:android:3f1314187b4374d616c31a",
+        "android_client_info": {
+          "package_name": "com.example.hellointern"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBffTOs_tXaCD-1pS_8zFMTUJqOUVy3rE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
